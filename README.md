@@ -1,2 +1,1 @@
-# goit-markup-hw-01
-For GoIt
+https://annaistochnikova.github.io/goit-markup-hw-02/ For GoIt
