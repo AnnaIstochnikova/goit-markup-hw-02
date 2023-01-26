@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
   </head>
   <body>
     <header>
       <span><a href="index.html">WebStudio</a></span>
       <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
+        <ul class="navbar">
+          <li><a href="./index.html">Agencja</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
@@ -23,7 +30,47 @@
     </header>
     <main>
       <div>
-        <h1>PPP</h1>
+        <ul class="main-buttons">
+          <li>
+            <button class="main-button">Wszystkie</button>
+          </li>
+          <li>
+            <button class="main-button">Strony</button>
+          </li>
+          <li>
+            <button class="main-button">Aplikacje</button>
+          </li>
+          <li>
+            <button class="main-button">Dizajn</button>
+          </li>
+          <li>
+            <button class="main-button">Marketing</button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="portfolio-exsamples">
+          <li>
+            <figure>
+              <img src="./images2/1.jpg" alt="The notebook with an example of page" height: 294px;
+              width: 370px;/>
+              <figcaption>
+                <span>Technocrack</span> <br />
+                Strona internetowa
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./images2/2.jpg" alt="Two man playing basketball" height: 294px; width:
+              370px;/>
+              <figcaption>
+                <span>Grafika New Orlean vs Golden Star</span> <br />
+                Dizajn
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
       </div>
     </main>
     <footer>
