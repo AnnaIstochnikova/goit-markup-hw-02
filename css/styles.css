@@ -5,13 +5,51 @@
 }
 body {
   font-family: 'roboto';
+  color: var(--main-color);
 }
+/* navigation*/
+.logo > a {
+  text-decoration: none;
+  font-family: 'Raleway';
+  color: #000;
+  font-size: 26;
+  line-height: 31px;
+}
+.logo-first-part {
+  color: var(--brand-color);
+}
+.navbar,
+.navbar > li > a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 500;
+}
+.navbar > li > a:hover,
+.navbar > li > a:focus {
+  color: var(--brand-color);
+}
+.contact > a {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+/* navigation*/
+/*main*/
+
 .main-buttons {
   list-style: none;
 }
 .main-button {
   color: var(--main-color);
   background-color: #f5f4fa;
+  line-height: 26px;
+  font-weight: 700px;
+}
+.main-buttons > li > button {
+  font-weight: 700px;
 }
 
 .main-button:hover,
@@ -19,8 +57,12 @@ body {
   background-color: var(--brand-color);
   list-style: none;
   cursor: pointer;
+  color: #fff;
 }
-
-.navbar {
+.portfolio-examples {
   list-style: none;
 }
+/*main*/
+/*footer*/
+
+/*footer*/
