@@ -4,32 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles-index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Studio</title>
   </head>
   <body>
     <header>
-      <span><a href="index.html">WebStudio</a></span>
+      <span class="logo"
+        ><a href="index.html"><span class="logo-first-part">Web</span>Studio</a></span
+      >
       <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
+        <ul class="navbar">
+          <li><a href="./index.html">Agencja</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Kontakty</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="contact">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
       </div>
-      <div><a href="tel:+48111111111">+48 111 111 111</a></div>
+      <div class="contact"><a href="tel:+48111111111">+48 111 111 111</a></div>
     </header>
     <main>
-      <div>
+      <div class="main-page-box">
         <h1>EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <button class="button-main-page" type="button">Zamów usługę</button>
       </div>
-      <div>
+      <div class="main-page-first-container">
         <ul>
           <li>
-            <h2>Lorem ipsum</h2>
+            <h2 class="main-page-first-container-title">Lorem ipsum</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
@@ -37,21 +46,21 @@
           </li>
 
           <li>
-            <h2>Lorem ipsum</h2>
+            <h2 class="main-page-first-container-title">Lorem ipsum</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h2>Lorem ipsum</h2>
+            <h2 class="main-page-first-container-title">Lorem ipsum</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h2>Lorem ipsum</h2>
+            <h2 class="main-page-first-container-title">Lorem ipsum</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
@@ -60,7 +69,7 @@
         </ul>
       </div>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="main-page-container-title">Czym się zajmujemy</h2>
         <img
           src="images/photo1.jpg"
           height="294"
@@ -80,8 +89,8 @@
           alt="creative artist web design with working colour selection graphic tablet"
         />
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
+      <section class="main-page-third-container">
+        <h2 class="main-page-container-title">Nasz zespół</h2>
         <ul>
           <li>
             <figure>
@@ -91,9 +100,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <b>John Doe</b><br />
-                Product Designer
+              <figcaption class="main-page-third-container-photo-title">
+                <span class="main-page-third-container-photo-title"><b>John Doe</b></span
+                ><br />
+                <span class="main-page-third-container-photo-description">Product Designer</span>
               </figcaption>
             </figure>
           </li>
@@ -107,8 +117,9 @@
                 height="260"
               />
               <figcaption>
-                <b>John Doe</b><br />
-                Frontend Developer
+                <span class="main-page-third-container-photo-title"><b>John Doe</b></span
+                ><br />
+                <span class="main-page-third-container-photo-description">Frontend Developer</span>
               </figcaption>
             </figure>
           </li>
@@ -121,8 +132,9 @@
                 height="260"
               />
               <figcaption>
-                <b>John Doe</b><br />
-                Marketing
+                <span class="main-page-third-container-photo-title"><b>John Doe</b></span
+                ><br />
+                <span class="main-page-third-container-photo-description">Marketing</span>
               </figcaption>
             </figure>
           </li>
@@ -135,8 +147,9 @@
                 height="260"
               />
               <figcaption>
-                <b>John Doe</b><br />
-                UI Designer
+                <span class="main-page-third-container-photo-title"><b>John Doe</b></span
+                ><br />
+                <span class="main-page-third-container-photo-description">UI Designer</span>
               </figcaption>
             </figure>
           </li>
@@ -144,11 +157,13 @@
       </section>
     </main>
     <footer>
-      <span><a href="index.html">WebStudio</a></span>
+      <span class="logo"
+        ><a href="index.html"><span class="logo-first-part">Web</span>Studio</a></span
+      >
       <address>
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <p><a href="info@example.com">info@example.com</a></p>
-        <p><a href="tel:+48111111111">+48 111 111 111</a></p>
+        <p class="address-street">m. Warszawa, Aleje Jerozolimskie 21</p>
+        <p class="contact-email"><a href="info@example.com">info@example.com</a></p>
+        <p class="contact-phone"><a href="tel:+48111111111">+48 111 111 111</a></p>
       </address>
     </footer>
   </body>

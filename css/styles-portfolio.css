@@ -4,16 +4,18 @@
   --brand-color: #2196f3;
 }
 body {
-  font-family: 'roboto';
+  font-family: 'roboto', sans-serif;
   color: var(--main-color);
 }
+
 /* navigation*/
+
 .logo > a {
   text-decoration: none;
   font-family: 'Raleway';
   color: #000;
-  font-size: 26;
-  line-height: 31px;
+  font-size: 26px;
+  line-height: 1.1;
 }
 .logo-first-part {
   color: var(--brand-color);
@@ -33,10 +35,15 @@ body {
 .contact > a {
   text-decoration: none;
   font-size: 14px;
-  color: var(--secondary-color);
+  color: var(--main-color);
+}
+.contact > a:hover,
+.contact > a:focus {
+  color: var(--brand-color);
 }
 
 /* navigation*/
+
 /*main*/
 
 .main-buttons {
@@ -45,11 +52,12 @@ body {
 .main-button {
   color: var(--main-color);
   background-color: #f5f4fa;
-  line-height: 26px;
-  font-weight: 700px;
+  line-height: 1.6;
 }
 .main-buttons > li > button {
-  font-weight: 700px;
+  font-weight: 500;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .main-button:hover,
@@ -62,7 +70,48 @@ body {
 .portfolio-examples {
   list-style: none;
 }
+.image-description-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.image-description {
+  color: var(--secondary-color);
+  line-height: 1.8;
+}
+
 /*main*/
+
 /*footer*/
+footer {
+  background-color: #2f303a;
+}
+.address > p > {
+  text-decoration: none;
+  line-height: 1.7;
+}
+.address-street {
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact-email > a {
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff60;
+}
+.contact-phone > a {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff60;
+}
+.contact-email > a:hover,
+.contact-email > a:focus,
+.contact-phone > a:hover,
+.contact-phone > a:focus {
+  color: var(--brand-color);
+}
 
 /*footer*/
