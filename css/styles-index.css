@@ -6,6 +6,7 @@
 body {
   font-family: 'roboto', sans-serif;
   color: var(--main-color);
+  list-style: none;
 }
 
 /* navigation*/
@@ -25,7 +26,6 @@ body {
   list-style: none;
   text-decoration: none;
   color: var(--main-color);
-  font-size: 14px;
   font-weight: 500;
 }
 .navbar > li > a:hover,
@@ -72,7 +72,6 @@ h1 {
 .main-page-first-container-title {
   font-weight: 700;
   font-size: 14px;
-  color: var(--main-color);
   text-transform: uppercase;
   line-height: 1.1;
 }
@@ -101,8 +100,45 @@ h1 {
   color: var(--secondary-color);
   line-height: 1.1;
 }
+/*portfolio*/
+.main-buttons {
+  list-style: none;
+}
+.main-button {
+  color: var(--main-color);
+  background-color: #f5f4fa;
+  line-height: 1.6;
+}
+.main-buttons > li > button {
+  font-weight: 500;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--brand-color);
+  list-style: none;
+  cursor: pointer;
+  color: #fff;
+}
+.portfolio-examples {
+  list-style: none;
+}
+.image-description-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.image-description {
+  color: var(--secondary-color);
+  line-height: 1.8;
+}
+
+/*portfolio*/
 
 /*main*/
+
 /*footer*/
 footer {
   background-color: #2f303a;
@@ -121,6 +157,7 @@ footer {
   font-style: normal;
   font-size: 14px;
   color: #ffffff60;
+  text-decoration: none;
 }
 .contact-phone > a {
   text-decoration: none;
